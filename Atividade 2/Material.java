@@ -1,6 +1,6 @@
-public abstract class Material {
-    protected String titulo;
-    protected Integer anoPublicacao;
+public abstract class Material implements Colecao{
+    private String titulo;
+    private Integer anoPublicacao;
 
     public abstract void descricao();
 

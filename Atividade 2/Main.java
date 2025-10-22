@@ -11,6 +11,10 @@ public class Main {
 
         int opcao;
 
+        TomadorEmprestimo u1 = new Usuario("Joao", "joao@email.com", "123");
+        Colecao L1 = new Livro("livro 1", "2025", "joao");
+        Emprestimo E1 = new Emprestimo(u1, L1, "22/10", "22/11");
+
         do {
             System.out.println("===== SISTEMA DE BIBLIOTECA =====");
             System.out.println("1 - Cadastrar Usuário");
