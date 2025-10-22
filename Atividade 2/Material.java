@@ -1,6 +1,6 @@
 public abstract class Material {
-    private String titulo;
-    private Integer anoPublicacao;
+    protected String titulo;
+    protected Integer anoPublicacao;
 
     public abstract void descricao();
 

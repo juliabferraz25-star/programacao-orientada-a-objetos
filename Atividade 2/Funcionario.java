@@ -5,6 +5,18 @@ public class Funcionario extends Pessoa {
         super(nome, email);
         this.cargo = cargo;
     }
+    public String getCargo() { 
+        return this.cargo;
+    }
+
+    public String getNome() { 
+        return this.nome;
+    }
+
+     public String getEmail() { 
+       return this.email;
+    }
+
     
     @Override
     public void exibirInfo() {
@@ -13,5 +25,5 @@ public class Funcionario extends Pessoa {
         System.out.println("Cargo: " + cargo);
     }
     
-    public String getCargo() { return cargo; }
+    
 }
